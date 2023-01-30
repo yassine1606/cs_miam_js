@@ -83,7 +83,7 @@
 
 #s2 {
   padding-top: 8vh;
-  height: 80vh;
+  height: 20vh;
 }
 
 #ds2 {
@@ -102,6 +102,82 @@
 #ds2 h3, #ds2 .h3 {
   font-family: "cook";
   font-size: 50px;
+}
+
+#divts2 {
+  width: 100%;
+  height: 50vh;
+}
+
+#p1 {
+  margin-left: 15px;
+}
+
+#sous2 {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+#divImg {
+  background-image: url("../../../public/img/about.jpg");
+  height: 70vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.ps2 {
+  margin-left: 35px;
+}
+
+#divTexte i {
+  color: rgb(29, 212, 193);
+  margin-right: 2px;
+}
+
+#spara {
+  margin-left: 19px;
+}
+
+#ims2 {
+  margin-left: 35px;
+}
+
+#divBlanche {
+  height: 15vh;
+  background-color: white;
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+
+#divBlanche strong {
+  color: rgb(29, 212, 193);
+  font-size: 30px;
+}
+
+#dim2 {
+  background-image: url("../../../public/img/about-2.jpg");
+  background-size: 100%;
+  height: 232px;
+  margin-left: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dim2 i {
+  font-size: 30px;
+  color: white;
+  padding: 20px;
+  background-color: rgb(29, 212, 193);
+  border-radius: 50%;
 }
 
 /*!
