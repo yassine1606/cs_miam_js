@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "cook";
+  src: url(../../public/fonts/cookies-and-milk-font/CookiesandmilkRegular-W64Y.ttf);
+}
 #pointV {
   color: green;
 }
@@ -6,7 +10,6 @@
 #secDiv {
   display: flex;
   justify-content: space-evenly;
-  background-color: gray;
   height: 10vh;
   width: 100%;
   align-items: center;
@@ -28,9 +31,77 @@
   align-items: center;
   height: 5vh;
   width: 8vw;
-  background-color: aqua;
+  background-color: rgb(29, 212, 193);
   color: white;
-  border-radius: 50%/70%;
+  border-radius: 20px;
+}
+
+#s1 {
+  height: 70vh;
+  width: 100vw;
+  background-color: rgb(238, 239, 239);
+}
+
+#dTot1 {
+  display: flex;
+  height: 70vh;
+  width: 100vw;
+}
+
+#sDiv1 {
+  height: 70vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#bts1 {
+  height: 5vh;
+  width: 8vw;
+  background-color: rgb(29, 212, 193);
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+
+#sDiv1 i {
+  color: rgb(29, 212, 193);
+}
+
+#bts2 {
+  color: rgb(29, 212, 193);
+  border: none;
+  background-color: transparent;
+}
+
+#spnoir {
+  color: black;
+}
+
+#s2 {
+  padding-top: 8vh;
+  height: 80vh;
+}
+
+#ds2 {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#spab {
+  color: rgb(29, 212, 193);
+}
+
+#ds2 h3, #ds2 .h3 {
+  font-family: "cook";
+  font-size: 50px;
 }
 
 /*!

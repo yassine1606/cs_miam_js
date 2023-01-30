@@ -1,10 +1,13 @@
+*{
+    
+}
 #pointV{
     color: green;
 }
 #secDiv{
+    // position: fixed;
     display: flex;
     justify-content: space-evenly;
-    background-color: gray;
     height: 10vh;
     width: 100%;
     align-items: center;
@@ -17,16 +20,13 @@
     margin-left:10px;
     color: rgba(0, 0, 0, 0.244);
 }
-
-
-
 #divMo{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 5vh;
     width: 8vw;
-    background-color: aqua;
+    background-color: rgba(29,212,193,255);
     color: white;
-    border-radius:50% /70%;
+    border-radius:20px;
 }
