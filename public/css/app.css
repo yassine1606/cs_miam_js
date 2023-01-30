@@ -285,6 +285,81 @@
   height: 10vh;
 }
 
+#s5 {
+  height: 150vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#s5 h1, #s5 .h1 {
+  font-family: cook;
+}
+
+#sps5 {
+  color: rgb(29, 212, 193);
+}
+
+#dtitres5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dtitres5 p {
+  margin-top: 10%;
+  margin-left: 5%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+}
+
+#dtitres5 p:hover {
+  color: rgb(29, 212, 193);
+  border-bottom: 1px solid rgb(29, 212, 193);
+}
+
+#dcard1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60vw;
+  margin-top: 3%;
+  height: 30vh;
+}
+
+#dcard2 {
+  height: 30vh;
+  display: flex;
+  justify-content: space-evenly;
+  width: 60vw;
+  margin-top: 10%;
+}
+
+#pMenu {
+  margin-left: 23%;
+}
+
+#str1 {
+  color: rgb(29, 212, 193);
+  font-size: 30px;
+}
+
+#dimgCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20vw;
+  height: 30vh;
+  text-align: center;
+}
+
+.prixVert {
+  color: rgb(29, 212, 193);
+  font-size: 20px;
+}
+
 /*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
