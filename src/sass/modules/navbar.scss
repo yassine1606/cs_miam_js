@@ -1,0 +1,32 @@
+#pointV{
+    color: green;
+}
+#secDiv{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+}
+#divT{
+    display: flex;
+    align-items: center;
+}
+#divT p{
+    margin-left:10px;
+    color: rgba(0, 0, 0, 0.244);
+}
+
+
+
+#divMo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 8vw;
+    background-color: aqua;
+    color: white;
+    border-radius:50% /70%;
+}
