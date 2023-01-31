@@ -335,10 +335,10 @@ let btcar33 = document.getElementById('btcar33');
 let sousdcom2 = document.querySelector('.sousdcom2');
 
 btcar11.addEventListener('click',()=>{
-    sousdcom2.style.transform = "translateX(0%)";
+    sousdcom2.style.transform = "translateX(0)";
 })
 btcar22.addEventListener('click',()=>{
-    sousdcom2.style.transform = "translateX(-510px)";
+    sousdcom2.style.transform = "translateX(-530px)";
 })
 btcar33.addEventListener('click',()=>{
     sousdcom2.style.transform = "translateX(-950px)";

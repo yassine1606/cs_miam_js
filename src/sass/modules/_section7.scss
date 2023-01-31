@@ -1,6 +1,7 @@
 #s7 {
-    height: 65vh;
-    width: 100vw;
+height: 65vh;
+width: 100vw;
+padding-bottom: 15vh;
 }
 
 #d1s7 {
@@ -22,35 +23,103 @@
     font-size: 60px;
 }
 
-.sousdcom2{
+.sousdcom2 {
     display: flex;
     align-items: center;
     height: 30px;
     width: 100vw;
     transition: 1s;
-    div{
+
+    div {
         height: 300px;
         width: 50vw;
     }
 }
 
-.dcom2{
+.dcom2 {
     margin-left: 1%;
     width: 98vw;
     height: 530px;
     display: flex;
     transition: 1s;
     overflow: hidden;
-    background-color: green;
+
     div {
         width: 400px;
         height: 100%;
         flex-shrink: 0;
-        background-color: rgba(255, 0, 0, 0.302);
         margin-inline: 42px;
-        
+
     }
 }
-#divcar1{
-    margin-left: 0 !important;
+
+#divcar1 {
+    background-size: cover;
+    background:linear-gradient(rgba(0, 0, 0, 0.492),rgba(0, 0, 0, 0.65)),url("../../../public/img/events-1.jpg") ;
+    margin-left: 0;
+
+    height: 100%;
+    width: 100%;
+}
+
+#sousdivcar1 {
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+#sousdivcar2 {
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+#sousdivcar3 {
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+#divcar2 {
+    background-size: 101vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.492),rgba(0, 0, 0, 0.65)),url("../../../public/img/events-2.jpg") ;
+}
+
+#divcar3 {
+    background:linear-gradient(rgba(0, 0, 0, 0.492),rgba(0, 0, 0, 0.65)),url("../../../public/img/events-3.jpg") ;
+        background-size: 101vh;
+
+}
+
+#divbtcar11 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+
+    button {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-left: 4px;
+    }
+
+    button:hover {
+        background-color: aqua;
+        border: 2px solid aqua;
+    }
+}
+
+#lBleue {
+    border-bottom: 2px solid aqua;
+    width: 18%;
 }
