@@ -23,15 +23,77 @@ div3.id = "dtitres5";
 let p2 = document.createElement("p");
 p2.textContent = "Starters";
 div3.appendChild(p2);
+
+
+
+
 let p3 = document.createElement("p");
-p3.textContent = "Breakast";
+p3.textContent = "Breakfast";
 div3.appendChild(p3);
+
+
+
+
+
 let p4 = document.createElement("p");
 p4.textContent = "Lunch";
 div3.appendChild(p4);
+
+
+
+
 let p5 = document.createElement("p");
 p5.textContent = "Dinner";
 div3.appendChild(p5);
+
+
+
+
+
+
+p2.addEventListener('click',()=>{
+    strong.textContent = "Starters";
+    dcard1.style.opacity = 0;
+    dcard2.style.opacity = 0;
+    setTimeout(() => {
+        dcard1.style.opacity =1;
+        dcard2.style.opacity =1;
+
+    }, 500);
+
+})
+
+
+p3.addEventListener('click',()=>{
+    strong.textContent = "BreakFast";
+    dcard1.style.opacity = 0;
+    dcard2.style.opacity = 0;
+    setTimeout(() => {
+        dcard1.style.opacity =1;
+        dcard2.style.opacity =1;
+    }, 500);
+})
+
+p4.addEventListener('click',()=>{
+    strong.textContent = "Lunch";
+    dcard1.style.opacity = 0;
+    dcard2.style.opacity = 0;
+    setTimeout(() => {
+        dcard1.style.opacity =1;
+        dcard2.style.opacity =1;
+    }, 500);
+})
+
+p5.addEventListener('click',()=>{
+    strong.textContent = "Dinner";
+    dcard1.style.opacity = 0;
+    dcard2.style.opacity = 0;
+    setTimeout(() => {
+        dcard1.style.opacity =1;
+        dcard2.style.opacity =1;
+    }, 500);
+})
+
 s5.appendChild(div3);
 
 // Création de la div 4, des 2 titres et de la balise strong
@@ -45,6 +107,14 @@ strong.id = "str1";
 strong.textContent = "Dinner";
 div4.appendChild(strong);
 s5.appendChild(div4);
+
+
+
+
+
+
+
+
 
 
 document.body.appendChild(s5);

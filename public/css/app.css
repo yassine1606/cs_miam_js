@@ -292,6 +292,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  transition: 0.5s;
 }
 
 #s5 h1, #s5 .h1 {
@@ -320,12 +321,19 @@
   border-bottom: 1px solid rgb(29, 212, 193);
 }
 
+#dtitres5 p:visited {
+  color: rgb(29, 212, 193);
+  font-weight: bold;
+  border-bottom: 1px solid rgb(29, 212, 193);
+}
+
 #dcard1 {
   display: flex;
   justify-content: space-evenly;
   width: 60vw;
   margin-top: 3%;
   height: 30vh;
+  transition: 0.5s;
 }
 
 #dcard2 {
@@ -334,10 +342,13 @@
   justify-content: space-evenly;
   width: 60vw;
   margin-top: 10%;
+  transition: 0.5s;
 }
 
 #pMenu {
-  margin-left: 23%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #str1 {
@@ -358,6 +369,10 @@
 .prixVert {
   color: rgb(29, 212, 193);
   font-size: 20px;
+}
+
+.opac {
+  opacity: 0;
 }
 
 /*!

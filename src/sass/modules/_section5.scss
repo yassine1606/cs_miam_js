@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: 0.5s;
 }
 #s5 h1{
     font-family:cook;
@@ -28,12 +29,18 @@
     color: rgba(29,212,193,255);
     border-bottom: 1px solid rgba(29,212,193,255);
 }
+#dtitres5 p:visited{
+    color: rgba(29,212,193,255);
+    font-weight: bold;
+    border-bottom: 1px solid rgba(29,212,193,255);
+}
 #dcard1{
     display: flex;
     justify-content: space-evenly;
     width: 60vw;
     margin-top: 3%;
     height: 30vh;
+    transition: 0.5s;
 }
 #dcard2{
     height: 30vh;
@@ -41,9 +48,13 @@
     justify-content: space-evenly;
     width: 60vw;
     margin-top: 10%;
+    transition: 0.5s;
+
 }
 #pMenu{
-    margin-left: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #str1{
     color: rgba(29,212,193,255);
@@ -62,4 +73,8 @@
 .prixVert{
     color:rgba(29,212,193,255);
     font-size: 20px;
+}
+
+.opac{
+    opacity: 0;
 }
