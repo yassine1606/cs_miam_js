@@ -376,13 +376,14 @@
 }
 
 #s6 {
-  height: 60vh;
+  height: 65vh;
   background-color: rgb(238, 239, 239);
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 5vh;
 }
 
 .sousdcom {
@@ -409,11 +410,6 @@
   justify-content: center;
   width: 50vw;
   overflow: hidden;
-}
-
-#slider {
-  flex-shrink: 0;
-  width: 100%;
 }
 
 .dcom {
@@ -455,6 +451,63 @@
 #divbtcar1 button:hover {
   background-color: aqua;
   border: 2px solid aqua;
+}
+
+#s7 {
+  height: 65vh;
+  width: 100vw;
+}
+
+#d1s7 {
+  margin-top: 5vh;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#spBleu {
+  color: rgb(99, 221, 208);
+}
+
+#h2s7 {
+  font-family: cook;
+  font-size: 60px;
+}
+
+.sousdcom2 {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 100vw;
+  transition: 1s;
+}
+.sousdcom2 div {
+  height: 300px;
+  width: 50vw;
+}
+
+.dcom2 {
+  margin-left: 1%;
+  width: 98vw;
+  height: 530px;
+  display: flex;
+  transition: 1s;
+  overflow: hidden;
+  background-color: green;
+}
+.dcom2 div {
+  width: 400px;
+  height: 100%;
+  flex-shrink: 0;
+  background-color: rgba(255, 0, 0, 0.302);
+  margin-inline: 42px;
+}
+
+#divcar1 {
+  margin-left: 0 !important;
 }
 
 /*!

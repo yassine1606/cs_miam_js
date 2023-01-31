@@ -326,4 +326,21 @@ btcar3.addEventListener('click',()=>{
     dcom.style.transform = "translateX(-2000px)";
 })
 
+// Caroussel 2
+
+let btcar11 = document.getElementById('btcar11');
+let btcar22 = document.getElementById('btcar22');
+let btcar33 = document.getElementById('btcar33');
+
+let sousdcom2 = document.querySelector('.sousdcom2');
+
+btcar11.addEventListener('click',()=>{
+    sousdcom2.style.transform = "translateX(0%)";
+})
+btcar22.addEventListener('click',()=>{
+    sousdcom2.style.transform = "translateX(-510px)";
+})
+btcar33.addEventListener('click',()=>{
+    sousdcom2.style.transform = "translateX(-950px)";
+})
 
