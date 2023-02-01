@@ -853,6 +853,134 @@
   margin-bottom: 4%;
 }
 
+#s10 {
+  height: 60vh;
+  background-color: rgb(238, 239, 239);
+}
+
+#d1s10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+}
+
+#h2s10 {
+  font-family: cook;
+  font-size: 50px;
+}
+
+#p2s10 {
+  color: gray;
+}
+
+.sousdcom22 {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 100vw;
+  transition: 1s;
+}
+.sousdcom22 div {
+  height: 300px;
+  width: 50vw;
+}
+
+.dcom22 {
+  margin-left: 1%;
+  width: 98vw;
+  height: 230px;
+  display: flex;
+  transition: 1s;
+  overflow: hidden;
+}
+.dcom22 div {
+  width: 400px;
+  height: 100%;
+  flex-shrink: 0;
+  margin-inline: 42px;
+}
+
+#divcar11 {
+  background-size: 100%;
+  background: url("../../../public/img/gallery-1.jpg");
+  height: 65%;
+  width: 50%;
+}
+
+#divcar22 {
+  background-size: 100%;
+  background: url("../../../public/img/gallery-2.jpg");
+  height: 65%;
+  width: 50%;
+}
+
+#divcar33 {
+  background: url("../../../public/img/gallery-3.jpg");
+  background-size: 100%;
+  height: 65%;
+  width: 50%;
+}
+
+#divcar44 {
+  background: url("../../../public/img/gallery-4.jpg");
+  background-size: 100%;
+  height: 65%;
+  width: 50%;
+}
+
+#divcar55 {
+  background: url("../../../public/img/gallery-5.jpg");
+  background-size: 100%;
+  height: 65%;
+  width: 50%;
+}
+
+#divcar66 {
+  background: url("../../../public/img/gallery-6.jpg");
+  background-size: 100%;
+  height: 65%;
+  width: 50%;
+  margin-right: 20%;
+}
+
+#divcar77 {
+  background: url("../../../public/img/gallery-7.jpg");
+  background-size: 100%;
+  height: 65%;
+  width: 50%;
+}
+
+#divcar88 {
+  background: url("../../../public/img/gallery-8.jpg");
+  background-size: 100%;
+  height: 65%;
+  width: 50%;
+}
+
+#divbtcar11 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+#divbtcar11 button {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-left: 4px;
+}
+#divbtcar11 button:hover {
+  background-color: aqua;
+  border: 2px solid aqua;
+}
+
+#lBleue {
+  border-bottom: 2px solid aqua;
+  width: 18%;
+}
+
 /*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

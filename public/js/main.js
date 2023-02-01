@@ -344,3 +344,44 @@ btcar33.addEventListener('click',()=>{
     sousdcom2.style.transform = "translateX(-950px)";
 })
 
+
+let sousdcom22 = document.querySelector('.sousdcom22');
+
+
+
+let btcar111 = document.getElementById('btcar111');
+let btcar222 = document.getElementById('btcar222');
+let btcar333 = document.getElementById('btcar333');
+let btcar444 = document.getElementById('btcar444');
+let btcar555 = document.getElementById('btcar555');
+let btcar666 = document.getElementById('btcar666');
+let btcar777 = document.getElementById('btcar777');
+let btcar888 = document.getElementById('btcar888');
+
+
+btcar111.addEventListener('click',()=>{
+    sousdcom22.style.transform = "translateX(0)";
+})
+btcar222.addEventListener('click',()=>{
+    sousdcom22.style.transform = "translateX(-300px)";
+})
+btcar333.addEventListener('click',()=>{
+    sousdcom22.style.transform = "translateX(-600px)";
+})
+btcar444.addEventListener('click',()=>{
+    sousdcom22.style.transform = "translateX(-900px)";
+})
+btcar555.addEventListener('click',()=>{
+    sousdcom22.style.transform = "translateX(-1200px)";
+})
+btcar666.addEventListener('click',()=>{
+    sousdcom22.style.transform = "translateX(-1500px)";
+})
+btcar777.addEventListener('click',()=>{
+    sousdcom22.style.transform = "translateX(-1800px)";
+})
+btcar888.addEventListener('click',()=>{
+    sousdcom22.style.transform = "translateX(-2100px)";
+})
+
+
