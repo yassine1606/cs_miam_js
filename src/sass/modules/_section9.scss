@@ -1,0 +1,93 @@
+#s9{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#d1s9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#d2s9{
+    height: 60%;
+    width: 80%;
+    background-color: rgba(247,247,247,255);
+    display: flex;
+}
+#h2s9{
+    font-family: cook;
+    font-size: 50px;
+}
+#sps9{
+    color: rgba(29,212,193,255);
+}
+#p1s9{
+    color: gray;
+}
+#d2s9_1{
+    width: 30%;
+    height: 100%;
+    background-image: url("../../../public/img/reservation.jpg");
+    background-size: 100%;
+}
+#sousd2s9{
+    margin-top: 3%;
+    height: 25%;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sousd2s9{
+    input{
+        height: 40px;
+        margin-left: 5%;
+    }
+}
+#sousd2s9_2{
+    height: 5%;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sousd2s9_2{
+    input{
+        height: 40px;
+        margin-left: 5%;
+    }
+}
+#sousd2s9_3{
+height: 55%;
+width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sousd2s9_3{
+    textarea{
+        margin-left: 5%;
+        height: 60%;
+        width: 75%;
+
+    }
+}
+#d3s9bt{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bts9{
+    height: 5vh;
+    width: 8vw;
+    background-color: rgba(29,212,193,255);
+    color: white;
+    border-radius:20px;
+    border: none;
+    margin-bottom: 4%;
+}
