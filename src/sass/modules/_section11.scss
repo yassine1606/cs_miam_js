@@ -1,0 +1,125 @@
+#s11{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#d1s11{
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15vh;
+}
+#h2s11{
+    font-family: cook;
+    font-size: 50px;
+}
+#sps11{
+    color: rgba(82,222,208,255);
+}
+#d2s11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    iframe{
+        margin-top: 2%;
+        height: 100%;
+        width: 82%;
+    }
+}
+#d3s11{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    i{
+        font-size: 30px;
+        border-radius: 50%;
+        color: white;
+        background-color: rgba(29,212,193,255);
+        padding: 15px;
+        margin-left: 2%;
+    }
+}
+#sousd3s11_1{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+    background-color: rgba(244,244,244,255);
+}
+#dds11{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+#d3s12{
+    margin-top: 1%;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    i{
+        font-size: 30px;
+        border-radius: 50%;
+        color: white;
+        background-color: rgba(29,212,193,255);
+        padding: 15px;
+        margin-left: 2%;
+    }
+}
+#s11v2{
+    height: 60vh;
+}
+#d1ss1v2{
+    margin-top: 2%;
+    width: 82%;
+    height: 80vh;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#inp1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    input{
+        border: 1px solid #e0e4e6;
+        width: 47.5%;
+        padding: 10px;        
+    }
+}
+#inp2{
+    border: 1px solid #e0e4e6;
+    margin-top: 2%;
+    width: 100%;
+    padding: 10px;
+}
+#txtar{
+    margin-top: 4%;
+    textarea{
+        border: 1px solid #e0e4e6;
+
+    }
+}
+#bts11{
+    height: 7vh;
+    width: 10vw;
+    background-color: rgba(29,212,193,255);
+    color: white;
+    border-radius:20px;
+    border: none;
+    margin-top: 2%;
+}
+#divbts11{
+    display: flex;
+    justify-content: center;
+}
