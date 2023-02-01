@@ -1,3 +1,162 @@
 #s8{
-    height: 100vh;
+    height: 130vh;
+    margin-top: 20%;
+    background-color: rgba(238,239,239,255);
+}
+#d1s8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+}
+#h2s8{
+    font-family: cook;
+    font-size: 60px;
+}
+#sps8{
+    color: rgba(32,212,193,255);
+}
+#p1s8{
+    color: rgba(138,138,154,255);
+}
+#d2s8{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sousd2s8_1{
+    background-image: url("../../..//public/img/chefs-1.jpg");
+    height: 75%;
+    width: 25%;
+    margin-left: 2%;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: 1s;
+}
+#sousd2s8_2{
+    background-image: url("../../..//public/img/chefs-2.jpg");
+    height: 75%;
+    width: 25%;
+    margin-left: 2%;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+#sousd2s8_3{
+    background-image: url("../../..//public/img/chefs-3.jpg");
+    height: 75%;
+    width: 25%;
+    margin-left: 2%;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.dvag{
+    height: 45%;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.p2s8{
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.dvag2{
+    height: 30%;
+    width: 20%;
+    position: absolute;
+    margin-bottom: 9%;
+    width: 25%;
+}
+.txtwave{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sousd2s8_1:hover{
+    height: 76%;
+    width: 26%;
+    .wave{
+        opacity: 0;
+    }
+    .logoanim{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        transform: translate(900%,-700%);
+        transition: 1s;
+        opacity: 1;
+    }
+}
+.logoanim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    transform: translate(1100%,-700%);
+    transition: 1s;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.462);
+    i:hover{
+        font-weight: bold;
+        color: rgba(29,212,193,255);
+    }
+}
+#sousd2s8_2:hover{
+    height: 76%;
+    width: 26%;
+    .wave{
+        opacity: 0;
+    }
+    .logoanim{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        transform: translate(900%,-700%);
+        transition: 1s;
+        opacity: 1;
+        background-color: rgba(255, 255, 255, 0.462);
+
+    }
+}
+#sousd2s8_3:hover{
+    height: 76%;
+    width: 26%;
+    .wave{
+        opacity: 0;
+    }
+    .logoanim{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        transform: translate(900%,-700%);
+        transition: 1s;
+        opacity: 1;
+        background-color: rgba(255, 255, 255, 0.462);
+    }
+}
+.wave{
+    transition: 1s;
 }

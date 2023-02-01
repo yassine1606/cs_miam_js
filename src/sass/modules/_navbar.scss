@@ -1,13 +1,11 @@
 
-*{
-    
-}
 #pointV{
     color: green;
 }
 #secDiv{
-    // position: fixed;
+    position: sticky;
     display: flex;
+    background-color: rgb(215, 211, 211);
     justify-content: space-evenly;
     height: 10vh;
     width: 100%;
