@@ -385,3 +385,50 @@ btcar888.addEventListener('click',()=>{
 })
 
 
+let section1 = document.getElementById("s1")
+let section2 = document.getElementById("s2")
+let section3 = document.getElementById("s3")
+let section4 = document.getElementById("s4")
+let section5 = document.getElementById("s5")
+let section6 = document.getElementById("s6")
+let section7 = document.getElementById("s7")
+let section8 = document.getElementById("s8")
+let section9 = document.getElementById("s9")
+let section10 = document.getElementById("s10")
+let section11 = document.getElementById("s11")
+
+
+
+
+let navb = document.getElementById('secDiv')
+
+let btDark = document.getElementById('dark');
+let body = document.querySelector('body');
+
+let divBl = document.getElementById('divTexte')
+
+btDark.addEventListener('click',()=>{
+    navb.classList.toggle('noir');
+    body.classList.toggle('noir');
+    section1.classList.toggle('noir');
+    section2.classList.toggle('noir');
+    section3.classList.toggle('noir2');
+    section4.classList.toggle('noir');
+    section5.classList.toggle('noir');
+    section6.classList.toggle('noir');
+    section7.classList.toggle('noir');
+    section8.classList.toggle('noir2');
+    section9.classList.toggle('noir');
+    section10.classList.toggle('noir');
+    section11.classList.toggle('noir');
+
+
+
+
+   
+})
+let titreP = document.querySelectorAll('.hvr-underline-from-left');
+
+titreP.forEach(element => {
+    element.classList.toggle('tblanc');
+});

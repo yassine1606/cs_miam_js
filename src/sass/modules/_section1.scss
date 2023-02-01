@@ -1,7 +1,8 @@
 #s1{
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
     background-color: rgba(238,239,239,255);
+    padding-block: 80px;
 }
 #dTot1{
     display: flex;
@@ -24,6 +25,13 @@
     color: white;
     border-radius:20px;
     border: none;
+}
+#bts1:hover{
+    background-color: red;
+    color: white;
+}
+#bts2:hover{
+    color: red;
 }
 #sDiv1 i{
     color: rgba(29,212,193,255);
