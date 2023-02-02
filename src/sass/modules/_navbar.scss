@@ -23,7 +23,6 @@ body {
 }
 
 #divT {
-
     p {
         margin-left: 10px;
         color: rgba(0, 0, 0, 0.244);
@@ -44,9 +43,11 @@ body {
 
 #divMo:hover {
     background-color: red;
+    cursor: pointer;
 }
 
 .hvr-underline-from-left {
+    cursor: pointer;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
@@ -159,6 +160,8 @@ body {
     height: 35vh;
     h2{
         color: black;
+        font-family: cook;
+        font-size: 40px;
     }
 }
 #conn{
