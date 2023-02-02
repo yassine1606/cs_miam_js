@@ -2,7 +2,7 @@
 // Tablette
 
 
-@media only screen and (max-width: 769px){
+@media only screen and (max-width: 769px)and (min-width: 767px){
     #secDiv{
         width: 100%;
     }
@@ -32,7 +32,7 @@
         width: 40%;
     }
     textarea{
-        width: 40%;
+        width: 100%;
     }
     #d1s3{
         width: 40%;

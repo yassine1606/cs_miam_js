@@ -1339,7 +1339,7 @@ footer {
   color: rgb(185, 185, 187);
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 769px) and (min-width: 767px) {
   #secDiv {
     width: 100%;
   }
@@ -1369,7 +1369,7 @@ footer {
     width: 40%;
   }
   textarea {
-    width: 40%;
+    width: 100%;
   }
   #d1s3 {
     width: 40%;
