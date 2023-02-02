@@ -389,9 +389,6 @@ let section9 = document.getElementById("s9")
 let section10 = document.getElementById("s10")
 let section11 = document.getElementById("s11")
 
-
-
-
 let navb = document.getElementById('secDiv')
 
 let btDark = document.getElementById('dark');
