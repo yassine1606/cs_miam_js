@@ -103,16 +103,6 @@ div4.appendChild(strong);
 s5.appendChild(div4);
 
 
-
-
-
-
-
-
-
-
-
-
 //// Cards 1
 
 
