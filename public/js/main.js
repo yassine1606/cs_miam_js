@@ -431,13 +431,10 @@ let modal = document.getElementById("modal");
 let close = document.getElementsByClassName("close")[0];
 
 // Ouvrir le modal 
-
 btnOpenModal.addEventListener('click',()=>{
     modal.style.display = "block";
 })
-
 // Fermer le modal sur la croix
 close.addEventListener('click',()=>{
     modal.style.display = "none";
-
 })
