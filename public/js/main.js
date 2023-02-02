@@ -424,9 +424,7 @@ titreP.forEach(element => {
     element.classList.toggle('tblanc');
 });
 
-
 //modal  --------------------------------------------------------------------------------------------
-
 
 let btnOpenModal = document.getElementById("btnOpenModal");
 let modal = document.getElementById("modal");
@@ -443,7 +441,3 @@ close.addEventListener('click',()=>{
     modal.style.display = "none";
 
 })
-
-
-
-
