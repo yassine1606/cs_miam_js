@@ -1339,6 +1339,146 @@ footer {
   color: rgb(185, 185, 187);
 }
 
+@media only screen and (max-width: 769px) {
+  #secDiv {
+    width: 100%;
+  }
+  #divMo {
+    width: 20vw;
+  }
+  #bts1 {
+    width: 15vw;
+  }
+  #dark {
+    width: 20vw;
+  }
+  #s1 {
+    width: 110%;
+  }
+  #s2 {
+    width: 110%;
+  }
+  #s3 {
+    height: 180vh;
+    width: 110%;
+    margin-top: 40%;
+    flex-direction: column;
+  }
+  .d2s3 {
+    margin-top: 8%;
+    width: 40%;
+  }
+  textarea {
+    width: 40%;
+  }
+  #d1s3 {
+    width: 40%;
+  }
+  #d1s3 button {
+    width: 30%;
+    height: 15%;
+  }
+  #s4 {
+    width: 110%;
+  }
+  #s5 {
+    width: 110%;
+    height: 180vh;
+  }
+  #dcard1 {
+    flex-direction: column;
+    position: relative;
+    margin-top: 30%;
+    height: 40vh;
+  }
+  #dcard1 img {
+    height: 110px;
+  }
+  #dcard2 {
+    flex-direction: column;
+    width: 20%;
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 62%;
+  }
+  #dcard2 img {
+    height: 110px;
+  }
+  #s6 {
+    height: 70vh;
+    width: 110%;
+  }
+  .sousdcom img {
+    margin-left: 60%;
+    position: absolute;
+    margin-top: 20%;
+  }
+  #s7 {
+    width: 110%;
+    height: 80vh;
+  }
+  .dcom2 {
+    width: 60%;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+  #s8 {
+    height: 100vh;
+    width: 110%;
+  }
+  #s8 i {
+    position: absolute;
+  }
+  #sousd2s8_1 {
+    height: 60%;
+  }
+  #sousd2s8_1 img {
+    opacity: 0;
+  }
+  #sousd2s8_2 {
+    height: 60%;
+  }
+  #sousd2s8_2 img {
+    opacity: 0;
+  }
+  #sousd2s8_3 {
+    height: 60%;
+  }
+  #sousd2s8_3 img {
+    opacity: 0;
+  }
+  #s9 {
+    width: 110%;
+  }
+  #s9 input {
+    width: 20%;
+  }
+  #s9 #bts9 {
+    height: 8vh;
+    width: 22vw;
+  }
+  #s10 {
+    width: 110%;
+  }
+  .dcom22 div {
+    width: 330px;
+  }
+  #s11 {
+    width: 110%;
+    height: 140vh;
+  }
+  #s11 iframe {
+    width: 95%;
+  }
+  footer {
+    width: 110%;
+    height: 110%;
+  }
+  footer div {
+    margin-left: 5%;
+  }
+}
 /*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
