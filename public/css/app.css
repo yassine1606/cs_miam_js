@@ -91,6 +91,98 @@ body {
   color: black;
 }
 
+#dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 12vw;
+  background-color: rgb(29, 212, 193);
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+
+#dark:hover {
+  background-color: red;
+}
+
+.modal {
+  margin-left: 25%;
+  position: fixed;
+  z-index: 1;
+  width: 50vw !important;
+  height: 60vh !important;
+}
+
+.modal-content {
+  background-color: blue;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+}
+.modal-content i {
+  color: red;
+}
+.modal-content i:hover {
+  color: rgb(29, 212, 193);
+}
+
+.close {
+  color: red;
+  font-size: 28px;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#divForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(29, 212, 193);
+  height: 35vh;
+}
+#divForm h2, #divForm .h2 {
+  color: black;
+}
+
+#conn {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 11vw;
+  background-color: rgb(29, 212, 193);
+  color: white;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+#conn:hover {
+  background-color: red;
+}
+
+#mdpOub {
+  margin-top: 1%;
+  height: 5vh;
+  width: 11vw;
+  background-color: rgb(29, 212, 193);
+  color: white;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+#mdpOub:hover {
+  background-color: red;
+}
+
 #s1 {
   height: 80vh;
   width: 100vw;

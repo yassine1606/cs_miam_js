@@ -316,13 +316,13 @@ let btcar3 = document.getElementById('btcar3');
 
 let dcom = document.querySelector('.dcom');
 
-btcar1.addEventListener('click',()=>{
+btcar1.addEventListener('click', () => {
     dcom.style.transform = "translateX(0%)";
 })
-btcar2.addEventListener('click',()=>{
+btcar2.addEventListener('click', () => {
     dcom.style.transform = "translateX(-1000px)";
 })
-btcar3.addEventListener('click',()=>{
+btcar3.addEventListener('click', () => {
     dcom.style.transform = "translateX(-2000px)";
 })
 
@@ -334,13 +334,13 @@ let btcar33 = document.getElementById('btcar33');
 
 let sousdcom2 = document.querySelector('.sousdcom2');
 
-btcar11.addEventListener('click',()=>{
+btcar11.addEventListener('click', () => {
     sousdcom2.style.transform = "translateX(0)";
 })
-btcar22.addEventListener('click',()=>{
+btcar22.addEventListener('click', () => {
     sousdcom2.style.transform = "translateX(-530px)";
 })
-btcar33.addEventListener('click',()=>{
+btcar33.addEventListener('click', () => {
     sousdcom2.style.transform = "translateX(-950px)";
 })
 
@@ -359,28 +359,28 @@ let btcar777 = document.getElementById('btcar777');
 let btcar888 = document.getElementById('btcar888');
 
 
-btcar111.addEventListener('click',()=>{
+btcar111.addEventListener('click', () => {
     sousdcom22.style.transform = "translateX(0)";
 })
-btcar222.addEventListener('click',()=>{
+btcar222.addEventListener('click', () => {
     sousdcom22.style.transform = "translateX(-300px)";
 })
-btcar333.addEventListener('click',()=>{
+btcar333.addEventListener('click', () => {
     sousdcom22.style.transform = "translateX(-600px)";
 })
-btcar444.addEventListener('click',()=>{
+btcar444.addEventListener('click', () => {
     sousdcom22.style.transform = "translateX(-900px)";
 })
-btcar555.addEventListener('click',()=>{
+btcar555.addEventListener('click', () => {
     sousdcom22.style.transform = "translateX(-1200px)";
 })
-btcar666.addEventListener('click',()=>{
+btcar666.addEventListener('click', () => {
     sousdcom22.style.transform = "translateX(-1500px)";
 })
-btcar777.addEventListener('click',()=>{
+btcar777.addEventListener('click', () => {
     sousdcom22.style.transform = "translateX(-1800px)";
 })
-btcar888.addEventListener('click',()=>{
+btcar888.addEventListener('click', () => {
     sousdcom22.style.transform = "translateX(-2100px)";
 })
 
@@ -407,7 +407,7 @@ let body = document.querySelector('body');
 
 let divBl = document.getElementById('divTexte')
 
-btDark.addEventListener('click',()=>{
+btDark.addEventListener('click', () => {
     navb.classList.toggle('noir');
     body.classList.toggle('noir');
     section1.classList.toggle('noir');
@@ -425,10 +425,31 @@ btDark.addEventListener('click',()=>{
 
 
 
-   
+
 })
 let titreP = document.querySelectorAll('.hvr-underline-from-left');
 
 titreP.forEach(element => {
     element.classList.toggle('tblanc');
 });
+
+
+//modal 
+
+let btnOpenModal = document.getElementById("btnOpenModal");
+let modal = document.getElementById("modal");
+let close = document.getElementsByClassName("close")[0];
+
+// Ouvrir le modal 
+
+btnOpenModal.addEventListener('click',()=>{
+    modal.style.display = "block";
+})
+
+// Fermer le modal sur la croix
+close.addEventListener('click',()=>{
+    modal.style.display = "none";
+
+})
+
+

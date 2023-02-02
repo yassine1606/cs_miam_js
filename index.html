@@ -28,7 +28,23 @@
                 <p class="hvr-underline-from-left">Contact</p>
             </div>
             <div id="divMo">
-                <span id="modal">Book a Table</span>
+                <span id="btnOpenModal">Book a Table</span>
+                <div id="modal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"><i class="fa-solid fa-xmark"></i></span>
+                        <form>
+                            <div id="divForm">
+                                <h2>Connexion</h2>
+                                <label for="username">Nom d'utilisateur:</label>
+                                <input type="text" id="username" name="username">
+                                <label for="password">Mot de passe:</label>
+                                <input type="password" id="password" name="password">
+                                <input type="submit" value="Connexion" id="conn">
+                                <input type="submit" value="Mot de passe oublié" id="mdpOub">
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -47,6 +63,8 @@
             </div>
         </div>
     </section>
+
+    <!--Section 2-->
     <section id="s2">
         <div id="ds2">
             <p>About us</p>
