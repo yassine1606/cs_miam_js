@@ -1687,6 +1687,214 @@ footer {
     font-size: 15px;
   }
 }
+@media only screen and (max-width: 426px) and (min-width: 424px) {
+  #secDiv {
+    position: relative;
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+  }
+  #dark {
+    width: 35vw;
+  }
+  #divMo {
+    width: 35vw;
+  }
+  #modal input {
+    width: 90%;
+  }
+  #mdpOub {
+    width: 110%;
+  }
+  #divT {
+    display: flex;
+    flex-direction: column;
+  }
+  #s1 {
+    width: 120%;
+  }
+  #s1 img {
+    width: 70%;
+    height: 60%;
+    margin-left: 40%;
+  }
+  #sDiv1 {
+    width: 50%;
+  }
+  #bt1 {
+    width: 35vw;
+    height: 25vh;
+  }
+  #bts1 {
+    width: 35vw;
+  }
+  #im1 {
+    width: 50%;
+    margin-left: 2%;
+  }
+  textarea {
+    width: 100%;
+  }
+  #s6 {
+    display: none;
+  }
+  #s2 {
+    height: 20vh;
+    width: 100%;
+    padding-bottom: 100px;
+  }
+  #dim2 {
+    display: none;
+  }
+  #divImg {
+    display: none;
+  }
+  #divBlanche {
+    display: none;
+  }
+  #sous2 {
+    width: 100vw !important;
+  }
+  #s3 {
+    width: 120%;
+  }
+  .d2s3 {
+    margin-top: 15%;
+  }
+  #d1s3 {
+    height: 40vh;
+  }
+  #d1s3 button {
+    display: none;
+  }
+  #s4 {
+    width: 120%;
+  }
+  #s5 {
+    width: 120%;
+    height: 160vh;
+  }
+  #dcard1 {
+    flex-direction: column;
+    position: relative;
+    margin-top: 80%;
+    height: 40vh;
+  }
+  #dcard1 img {
+    height: 60px;
+  }
+  #dimgCard p {
+    font-size: 7px;
+  }
+  #dcard2 {
+    flex-direction: column;
+    width: 20%;
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 92% !important;
+  }
+  #dcard2 img {
+    height: 60px;
+  }
+  #s7 {
+    margin-top: 10vh;
+    width: 120%;
+  }
+  .dcom2 {
+    width: 90%;
+    height: 60%;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  #divbtcar11 {
+    margin-top: 13%;
+  }
+  #s8 {
+    height: 80vh;
+    width: 120%;
+  }
+  #s8 i {
+    position: absolute;
+  }
+  #d2s8 {
+    height: 50%;
+  }
+  #sousd2s8_1 {
+    height: 70%;
+  }
+  #sousd2s8_1 p {
+    display: none;
+  }
+  #sousd2s8_1 img {
+    opacity: 0;
+  }
+  #sousd2s8_2 {
+    height: 70%;
+  }
+  #sousd2s8_2 p {
+    display: none;
+  }
+  #sousd2s8_2 img {
+    opacity: 0;
+  }
+  #sousd2s8_3 {
+    height: 70%;
+  }
+  #sousd2s8_3 p {
+    display: none;
+  }
+  #sousd2s8_3 img {
+    opacity: 0;
+  }
+  #s9 {
+    width: 120%;
+  }
+  #d2s9 input {
+    width: 60px;
+  }
+  #s10 {
+    width: 120%;
+    height: 80vh;
+  }
+  .dcom22 div {
+    width: 450px;
+  }
+  #s11 {
+    width: 120%;
+    height: 100vh;
+  }
+  #s11 iframe {
+    width: 95%;
+  }
+  #d1ss1v2 {
+    height: 50vh;
+  }
+  #d3s11 {
+    height: 30vh;
+    width: 100%;
+  }
+  #d3s11 p {
+    font-size: 0px;
+  }
+  #d3s12 {
+    height: 30vh;
+    width: 100%;
+  }
+  #d3s12 p {
+    font-size: 0px;
+  }
+  #bts11 {
+    width: 35vw;
+  }
+  footer {
+    width: 120%;
+  }
+  footer p {
+    font-size: 15px;
+  }
+}
 /*!
  * Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
