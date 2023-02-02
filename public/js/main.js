@@ -434,7 +434,8 @@ titreP.forEach(element => {
 });
 
 
-//modal 
+//modal  --------------------------------------------------------------------------------------------
+
 
 let btnOpenModal = document.getElementById("btnOpenModal");
 let modal = document.getElementById("modal");
