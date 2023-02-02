@@ -326,7 +326,7 @@ btcar3.addEventListener('click', () => {
     dcom.style.transform = "translateX(-2000px)";
 })
 
-// Caroussel 2
+// Caroussel 2 ------------------------------------------------------------------------------------------
 
 let btcar11 = document.getElementById('btcar11');
 let btcar22 = document.getElementById('btcar22');
@@ -344,6 +344,7 @@ btcar33.addEventListener('click', () => {
     sousdcom2.style.transform = "translateX(-950px)";
 })
 
+// Caroussel 3 ------------------------------------------------------------------------------------------
 
 let sousdcom22 = document.querySelector('.sousdcom22');
 
