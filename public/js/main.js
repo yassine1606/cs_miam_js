@@ -420,7 +420,7 @@ btDark.addEventListener('click', () => {
     section8.classList.toggle('noir2');
     section9.classList.toggle('noir');
     section10.classList.toggle('noir');
-    section11.classList.toggle('noir');
+    section11.classList.toggle('noir2');
 
 
 
