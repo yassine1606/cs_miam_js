@@ -396,6 +396,8 @@ let body = document.querySelector('body');
 
 let divBl = document.getElementById('divTexte')
 
+
+
 btDark.addEventListener('click', () => {
     navb.classList.toggle('noir');
     body.classList.toggle('noir');
