@@ -297,7 +297,7 @@ dimgCard6.appendChild(prixVert6);
 
 
 s555.appendChild(s5);
-
+// fin section full js
 // ---------------------------------------------
 // Caroussel 1
 
