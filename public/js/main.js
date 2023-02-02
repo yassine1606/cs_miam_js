@@ -1,3 +1,4 @@
+// section full js
 let s555 = document.getElementById("s555");
 // Création de la section 5
 let s5 = document.createElement("section");
