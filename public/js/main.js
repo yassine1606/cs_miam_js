@@ -317,6 +317,29 @@ btcar3.addEventListener('click', () => {
     dcom.style.transform = "translateX(-2000px)";
 })
 
+
+let currentSlide = 1;
+
+
+function nextSlide() {
+    if (currentSlide === 1) {
+        dcom.style.transform = "translateX(-1000px)";
+        currentSlide = 2;
+    } else if (currentSlide === 2) {
+        dcom.style.transform = "translateX(-2000px)";
+        currentSlide = 3;
+    } else {
+        dcom.style.transform = "translateX(0%)";
+        currentSlide = 1;
+    }
+}
+// 1 etape chaque 5 secondes
+setInterval(nextSlide, 5000);
+
+
+
+  
+    
 // Caroussel 2 ------------------------------------------------------------------------------------------
 
 let btcar11 = document.getElementById('btcar11');
@@ -334,6 +357,25 @@ btcar22.addEventListener('click', () => {
 btcar33.addEventListener('click', () => {
     sousdcom2.style.transform = "translateX(-950px)";
 })
+
+
+let currentSlide2 = 1;
+
+
+function nextSlide2() {
+    if (currentSlide2 === 1) {
+        sousdcom2.style.transform = "translateX(-530px)";
+        currentSlide2 = 2;
+    } else if (currentSlide === 2) {
+        sousdcom2.style.transform = "translateX(-950px)";
+        currentSlide2 = 3;
+    } else {
+        sousdcom2.style.transform = "translateX(0%)";
+        currentSlide2 = 1;
+    }
+}
+// 1 etape chaque 5 secondes
+setInterval(nextSlide2, 5000);
 
 // Caroussel 3 ------------------------------------------------------------------------------------------
 
@@ -375,6 +417,56 @@ btcar777.addEventListener('click', () => {
 btcar888.addEventListener('click', () => {
     sousdcom22.style.transform = "translateX(-2100px)";
 })
+
+
+
+
+
+let currentSlide3 = 1;
+
+
+function nextSlide3() {
+    if (currentSlide3 === 1) {
+        sousdcom22.style.transform = "translateX(-300px)";
+        currentSlide3 = 2;
+    } else if (currentSlide3 === 2) {
+        sousdcom22.style.transform = "translateX(-600px)";
+        currentSlide3 = 3;
+    } else if(currentSlide3 == 3){
+        sousdcom22.style.transform = "translateX(-900px)";
+        currentSlide3 = 4;
+    }
+    else if(currentSlide3 == 4){
+        sousdcom22.style.transform = "translateX(-1200px)";
+        currentSlide3 = 5;
+    }
+    else if(currentSlide3 == 5){
+        sousdcom22.style.transform = "translateX(-1500px)";
+        currentSlide3 = 6;
+    }
+    else if(currentSlide3 == 6){
+        sousdcom22.style.transform = "translateX(-1800px)";
+        currentSlide3 = 7;
+    }else if(currentSlide3 == 7){
+        sousdcom22.style.transform = "translateX(-2100px)";
+        currentSlide3 = 8;
+    }
+    else{
+        sousdcom22.style.transform = "translateX(0%)";
+        currentSlide3 = 1;
+    }
+}
+// 1 etape chaque 5 secondes
+setInterval(nextSlide3, 2000);
+
+
+
+
+
+
+
+
+// dark mode
 
 
 let section1 = document.getElementById("s1")

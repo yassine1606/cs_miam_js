@@ -12,7 +12,7 @@
     flex-direction: column;
 }
 #d2s9{
-    height: 60%;
+    padding-block: 30px;
     width: 80%;
     background-color: rgba(247,247,247,255);
     display: flex;
@@ -83,8 +83,7 @@ width: 60vw;
     align-items: center;
 }
 #bts9{
-    height: 5vh;
-    width: 8vw;
+    padding: 10px 20px;
     background-color: rgba(29,212,193,255);
     color: white;
     border-radius:20px;

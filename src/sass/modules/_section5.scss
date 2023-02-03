@@ -1,6 +1,6 @@
 #s5{
-    height: 150vh;
-    width: 100vw;
+    padding-block: 50px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,9 +8,14 @@
     transition: 0.5s;
 }
 
-#s5 h1{
-    font-family:cook;
+#s5 {
+    div{
 
+        h1{
+            
+            color: red
+        }
+    }
 }
 #sps5{
     color: rgba(29,212,193,255);
@@ -41,11 +46,11 @@
     justify-content: space-evenly;
     width: 60vw;
     margin-top: 3%;
-    height: 30vh;
+    padding-block: 20px;
     transition: 0.5s;
 }
 #dcard2{
-    height: 30vh;
+    padding-block: 30px;
     display: flex;
     justify-content: space-evenly;
     width: 60vw;
@@ -68,7 +73,7 @@
     align-items: center;
     flex-direction: column;
     width: 20vw;
-    height: 30vh;
+    padding-block: 30px;
     text-align: center;
 }
 
